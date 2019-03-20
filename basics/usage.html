@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>JS Usage</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Narrow:400,600"
+      rel="stylesheet"
+    />
+    <link href="../css/site.css" rel="stylesheet" />
+    <link href="basics.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <h1>Usage</h1>
+    <h2>Basics</h2>
+    <h3>The script tag</h3>
+    <p>
+      A JavaScript file can be added to your website using the script tag before the body's closing tag:
+<pre><code> &lt;script src="path/to/file.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+    </p>
+    <h3>Script order</h3>
+    <p>
+      JS files are executed in order of appearance, therefore you should load external libraries (i.e. <a href="http://jquery.com" target="_blank">jQuery</a>) before loading dependent files.
+    </p>
+    <h3>The console</h3>
+    <p>
+      The console can be found under the console tab in the browser's inspector. It allows us to debug our code. It can be used with the <code>console.log()</code> method to print messages and values.
+    </p>
+    <h2>Syntax</h2>
+    <h3>Writing</h3>
+    <p>
+      JavaScript is case sensitive; consistency is key when writing variables, functions, etc. Dashes are not tipically used to name variables or properties (since - is also the substraction symbol). Instead of using dashes, compound words are usually written in camel case (each word in the middle of the phrase begins with a capital letter). Example: <code>variableName</code>.
+    </p>
+    <h3>Quotation marks</h3>
+    <p>
+      Javascript uses quotation marks to enclose values that shouldn't be directly interpreted (usually text values). Double ("") or single ('') quotation marks can be equally used, but they should be used alternately if they are nested.
+      Example: <br><code>"this is a 'quoted text'"</code>
+    </p>
+    <h3>Brackets</h3>
+    <p>
+      JavaScript functions typically have one or more arguments (interpreted values) between brackets. The name of the function is written next to the brackets, without an space between them. Multiple arguments are separated by commas.
+      Example: <code>console.log("Hola");</code>
+    </p>
+    <h3>Dots</h3>
+    <p>
+      Dots indicate belonging, usually to an object. For example, <code>console.log()</code> calls the <code>log()</code> function, which belongs to the <code>console</code> object.
+    </p>
+    <h3>Semicolons & curly brackets {}</h3>
+    <p>
+      Similarly to CSS, instructions typically end with a ; indicating that the next thing is a different instruction. Again similarly to CSS, several instructions can be grouped inside curly brackets {} and use them to link them to other elements, ie functions.
+    </p>
+    <h3>Comments in JS</h3>
+    <p>
+      Block comments are written with /* */, for example: <br><code>/* text inside a comment */</code>
+    </p>
+    <p>
+      Inline comments are written with // at the start of the line, for example: <br><code>// Commented line</code>
+    </p>
+    <script src="basics.js"></script>
+  </body>
+</html>

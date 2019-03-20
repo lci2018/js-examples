@@ -1,0 +1,60 @@
+:root {
+  --bg: #fafafa;
+  --font: "Archivo", sans-serif;
+  --font-display: "Archivo Narrow", sans-serif;
+  --hotpink: #e94057;
+  --orange: #f27121;
+  --gradient: linear-gradient(35deg, var(--orange), var(--hotpink));
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  margin: auto;
+  min-height: 100vh;
+  background: var(--bg);
+  font-family: var(--font);
+}
+
+.link-list{
+  list-style: none;
+  padding-left: 0;
+}
+.link-list li {
+  margin-bottom: 1rem;
+}
+.link-list a{
+  color: var(--hotpink);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.link-list a::after{
+  content: "\25B6\FE0E";
+  margin-left: .5rem;
+  font-size: .6rem;
+  vertical-align: .1em;
+}
+
+code {
+  color: rgba(255, 255, 255, .8);
+  background-color: #444;
+  padding: 3px 5px;
+  font-size: 1.2em;
+}
+
+pre code {
+    line-height: 1.4;
+}
+
+p {
+  max-width: 40em;
+  line-height: 1.5;
+}
+
+h2, h3 {
+  margin-top: 2em;
+}

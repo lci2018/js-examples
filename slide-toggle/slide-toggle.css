@@ -1,0 +1,19 @@
+.trigger{
+  color: #e94057;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.container-block{
+  overflow: hidden;
+  max-height: 0;
+  background-color: #ECECEC;
+  transition: max-height .3s;
+}
+
+.content-block{
+  padding: 1rem 2rem;
+}
